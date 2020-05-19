@@ -6,24 +6,25 @@ This repo will gather CSS stylesheets for vvvv gamma.
 
 ## Usage
 ```
-This is still a WIP, stylesheet are not uploaded to the release section yet
+This is still a WIP, stylesheet are not uploaded to the release section yet. For now, you'll have to download or clone the repo.
 ```
 Download the stylesheets from the release section and paste them in `Program Files\vvvv\vvvv_gamma_YYYY.N.N\lib\Stylesheets`. Then, edit the `Stylesheet` property of gamma's config file with the stylesheet you wanna use
 
 ## Themes
 
-### Available
-- Solarized Light (not finished yet)
+### In progress
+- Solarized Light
+- Zenburn
 
 ### Planed
 - Solarized Dark
 - Dracula
-- Zenburn
+    - Might be tough since the color palette is actually pretty limited
 
 ### Sources
 - [Solarized](https://en.wikipedia.org/wiki/Solarized_(color_scheme))
 - [Dracula](https://github.com/dracula/dracula-theme)
-- [Zenburn](https://en.wikipedia.org/wiki/Wikipedia:Zenburn)
+- [Zenburn](danson.grafidog.com/2010/10/zenburn-color-chart.html)
 
 ## Screenshots
 
