@@ -27,4 +27,8 @@ Download the stylesheets from the release section and paste them in `Program Fil
 
 ## Screenshots
 
-- soon
+### Zenburn
+![Zenburn](captures/zenburn.png)
+
+### Solarized Light
+![Solarized Light](captures/solarized_light.png)
