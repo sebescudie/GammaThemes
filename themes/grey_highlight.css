@@ -1,0 +1,260 @@
+/*
+Supported attributes:
+- fill
+- fill-opacity
+
+- stroke
+- stroke-opacity
+- stroke-witdh
+
+- font-style
+*/
+
+/*elements*/ 
+.quad { fill: #505050 }
+.patch { fill: #252525; }
+.patch-definition { fill: #2A2A2A; }
+.patch-paused { fill: #1b1b1b; }
+.selection { fill-opacity: 0.4; }
+
+.node { fill: #333333; }
+.node-selected { fill: #666666; }
+.pinbar { fill: #4C4C4C; }
+
+.region { fill: #FFFFFF; fill-opacity: 0.04; }
+.region2 { fill: #FFFFFF; fill-opacity: 0.10; }
+.region-outline { fill-opacity: 0.10; fill: #000000; stroke: #333333; stroke-width: 5px; }
+
+.frame-icons { fill: #bebebe; }
+.frame-selected { fill: #c9c9c9; }
+.frame-viewspace { fill-opacity: 0; stroke: #666666; stroke-width: 2px; }
+.frame0 { fill: #2B2B2B; fill-opacity: 0.5; }
+.frame1 { fill: #4F4F4F; fill-opacity: 0.5; }
+.frame2 { fill: #212d57; fill-opacity: 0.5; }
+.frame3 { fill: #455079; fill-opacity: 0.5; }
+.frame4 { fill: #294d49; fill-opacity: 0.5; }
+.frame5 { fill: #4a7570; fill-opacity: 0.5; }
+.frame6 { fill: #6b3636; fill-opacity: 0.5; }
+.frame7 { fill: #963535; fill-opacity: 0.5; }
+.frame8 { fill: #60356e; fill-opacity: 0.5; }
+.frame9 { fill: #8b569e; fill-opacity: 0.5; }
+.frame10 { fill: #252525; stroke: #505050; }
+.frame11 { fill: #252525; fill-opacity: 0; stroke: #666666; stroke-width: 2px;}
+
+.canvas-label { fill-opacity: 0; stroke: #333333; stroke-width: 2px; }
+.canvas-label-selected { fill-opacity: 0; stroke: #606060; stroke-width: 2px; }
+
+.datahub { fill: #816126; stroke-width: 2px; }
+
+.iobox-on { fill: #816126;}
+.iobox-off { fill-opacity: 0; stroke: #816126; stroke-width: 1px;}
+
+.comment { fill-opacity: 0; }
+.comment-hovered { fill: #E6E6E6; stroke: #484848; fill-opacity: 0; stroke-width: 1.5px; }
+
+.control { fill: #333333; }
+.control-hovered { fill: #444444; }
+.control-selected { fill: #494949; }
+.control-pressed { fill: #BEBEBE; }
+.control-disabled { fill: #222222; }
+
+
+
+.symbolbrowser {
+    fill: #242424;
+    fill-opacity: 0.9
+}
+
+.symbolbrowser-madechoices {
+    fill: #202020;
+}
+
+.symbolbrowser-hovered {
+    fill: #3399DD;
+    fill-opacity: 0.3
+}
+
+.symbolbrowser-selected {
+    stroke: #A9A9A9
+}
+
+.symbolbrowser-checked {
+    fill: #AAAAAA;
+}
+
+.symbolbrowser-font {
+    fill: #d6d6d6;
+}
+
+.symbolbrowser-font-disabled {
+    fill: #121212;
+}
+
+.symbolbrowser-pressed {
+    fill: #000000
+}
+
+.symbolbrowser-externals {
+    fill: #3f555c
+}
+
+
+.finder-result { fill: #FFFF00; fill-opacity: 0.65; }
+.finder-results { fill: #FFFF00; fill-opacity: 0.20; }
+
+.helppriority-high { fill: #2A658E; fill-opacity: 0.6; }
+.helppriority-high-stroke { stroke: #2A658E; fill-opacity: 0; stroke-opacity: 1; }
+.helppriority-low { fill: #2A658E; fill-opacity: 0.3; }
+.helpbubble { fill: #2A658E; }
+.nohelpflag { fill: #840000; }
+
+.indicator { fill: #DCDCDC; }
+.shadow { fill: #0C0C0C; }
+
+/* operations */
+.create { fill: #FDFDFD; }
+.update { fill: #816126; }
+.dispose { fill: #600404; }
+.operation0 { fill: #588CE4; }
+.operation1 { fill: #70AD83; }
+.operation2 { fill: #C36390; }
+.operation3 { fill: #466796; }
+.operation4 { fill: #069900; }
+.operation5 { fill: #BE865B; }
+.operation6 { fill: #5AAAB8; }
+.operation7 { fill: #31D050; }
+.operation8 { fill: #9C64B0; }
+.operation9 { fill: #444CBC; }
+
+.light { fill-opacity: 0.5; }
+
+/*optional*/
+.typeannotation { fill: #FFFFFF; stroke: #000000; stroke-width: 0.5px; }
+
+/* fonts */	
+.font { fill: #DCDCDC; }
+.type-font { fill: #999999; }
+.tooltip-font { fill: #DCDCDC; }
+.tooltip-level2-font { fill: #9A9A9A; }
+.tooltip-level3-font { fill: #6F6F6F; }
+.large-font { fill: #DCDCDC; }
+.comment-font { font-style: italic; }
+.control-font { fill: #DCDCDC; }
+.link-font { fill: #5085FF; text-decoration-line: underline; }
+.swatch-font { fill: #777777; }
+
+/*
+.region-font { fill: #000000; }
+.node-font { fill: #000000; }
+.datahub-font { fill: #000000; }
+.signature-font { fill: #000000; }
+.constant-font { fill: #000000; }
+.frame-font-small { fill: #000000; }
+.tab-font { fill: #4f4f54; }
+.canvas-label-font { fill: #000000; }
+.definition-font { fill: #000000; }
+.explorer-font { fill: #000000; }
+.frameicons-font { fill-opacity: 0.5; }
+.frame-font { fill: #555555; }		
+*/
+
+/*options 
+.error - makes stroke red
+.warning - makes stroke orange
+.unused - make fill and stroke transparent
+.generic - makes fill transparent=0, stroke=1
+.accepted - make stroke green
+.force-accepted - make stroke orange
+.committing - make stroke yellow
+*/
+
+.hint { stroke: #33404F; }
+.warning { stroke: #FFB200; stroke-opacity: 0.7; }
+.error { stroke: #B40000; stroke-opacity: 1; }
+.runtimeerror { stroke: #9800AF; stroke-opacity: 1; stroke-width: 2px; }
+
+.not-executed { fill: #000000; fill-opacity: 0.45 } 
+.not-executed-link { stroke: #000000; stroke-opacity: 0.45; }
+
+/* Deep the opacity as low as region background, otherwise unfocused regions will look darker than when focused. */
+.unused { fill-opacity: 0.5; stroke-opacity: 0.5; }
+.generic { fill-opacity: 0; stroke-opacity: 1; }
+.accepted { fill-opacity: 0.5; stroke: #00B512; stroke-opacity: 1; stroke-width: 2px; }
+.force-accepted { stroke-opacity: 1; stroke-width: 2px }
+.committing { fill-opacity: 0.5; stroke: #DBB600; stroke-opacity: 1; stroke-width: 2px; }
+
+/*libraries*/
+.renderer {	fill: #000000; }
+
+/*helpbrowser*/
+.helpbrowser-general-text {fill: #ffffff; }
+.helpbrowser-general-default {fill: #000000; }
+.helpbrowser-general-hover {fill: #333333; }
+.helpbrowser-general-active {fill: #de9800; }
+.helpbrowser-general-button {fill: #2d2d2d; }
+.helpbrowser-general-button-hover {fill: #de9800; }
+.helpbrowser-general-button-text {fill: #ffffff; }
+.helpbrowser-general-scroll {fill: #bbbbbb; }
+.helpbrowser-general-mediatype { fill: #777777; }
+.helpbrowser-general-tooltip-background { fill: #333333 }
+.helpbrowser-general-tooltip-text { fill: #ffffff }
+.helpbrowser-search-cursor {fill: #ffffff; }
+.helpbrowser-search-text {fill: #aaaaaa; }
+.helpbrowser-search-selection {fill: #444444; }
+.helpbrowser-search-shadow { fill: #111111; }
+.helpbrowser-search-background {fill: #202020; }
+.helpbrowser-search-clear {fill: #777777; }
+.helpbrowser-search-clear-hover {fill: #de9800; }
+.helpbrowser-background { fill: #232323; }
+.helpbrowser-iconIdle { fill: #de9800; }
+.helpbrowser-iconActive { stroke: #ffffff; }
+.helpbrowser-underlineColor { stroke: #41befb; }
+.helpbrowser-headline { fill: #FFFFFF; }
+.helpbrowser-folder { fill: #bbbbbb; }
+.helpbrowser-description { fill: #888888; }
+.helpbrowser-subfolder { fill: #797979; }
+.helpbrowser-text { fill: #DDDDDD; }
+.helpbrowser-howTo-highlight { fill: #bbbbbb; }
+.helpbrowser-highlight { fill: #404040; }
+.helpbrowser-highlightShadow { fill: #111111; }
+.helpbrowser-topbar-bg { fill: #191919; }
+.helpbrowser-topbar-shadow { fill: #101010; }
+.helpbrowser-toc-pack-highlight { fill: #000000; }
+.helpbrowser-shortcuts-keyFill { fill: #505050; }
+.helpbrowser-shortcuts-keyShadow { fill: #000000; }
+.helpbrowser-shortcuts-keyText { fill: #ffffff; }
+.helpbrowser-shortcuts-separator { stroke: #333333; }
+.helpbrowser-shortcuts-action { fill: #aaaaaa; }
+.helpbrowser-shortcuts-description { fill: #cccccc; }
+.helpbworser-navi-fill {fill: #191919; }
+.helpbworser-navi-fill-hover {fill: #191919; }
+.helpbworser-navi-fill-active {fill: #232323; }
+.helpbworser-navi-text {fill: #777777; }
+.helpbworser-navi-text-hover {fill: #cccccc; }
+.helpbworser-navi-text-active {fill: #ffffff; }
+.helpbworser-navi-shadow {fill: #000000; }
+.helpbworser-subnavi-underline {fill: #191919;}
+.helpbworser-subnavi-underline-hover {fill: #ffffff;}
+.helpbworser-subnavi-underline-active {fill: #de9800;}
+.helpbworser-subnavi-text {fill: #999999;}
+.helpbworser-subnavi-text-hover {fill: #ffffff;}
+.helpbworser-subnavi-text-active {fill: #ffffff;}
+.helpbrowser-gettingstarted-list-headline {fill: #ffffff;}
+.helpbrowser-gettingstarted-list-item-title {fill: #cccccc;}
+.helpbrowser-gettingstarted-list-item-desc {fill: #8f8f8f;}
+.helpbrowser-gettingstarted-list-seemore-hover {fill: #000000;}
+.helpbrowser-gettingstarted-list-seemore-text {fill: #de9800;}
+.helpbrowser-gettingstarted-exploredoc-shadow {fill: #151515;}
+.helpbrowser-gettingstarted-exploredoc-stroke-hover {fill: #c8eafb;}
+.helpbrowser-newsletter-field { fill: #101010; }
+.helpbrowser-newsletter-field-hover { fill: #101010; }
+.helpbrowser-newsletter-pinwheel { stroke: #ffffff; }
+.helpbrowser-newsletter-success { fill: #7bb500; }
+.helpbrowser-newsletter-error { fill: #ff3d00; }
+.helpbrowser-nodeview-backgr { fill: #111111; }
+.helpbrowser-nodeview-nodename { fill: #ffffff; }
+.helpbrowser-type-color1 { fill: #0ED38C; }
+.helpbrowser-type-color2 { fill: #FFAE63; }
+.helpbrowser-type-color3 { fill: #8C8C8C; }
+.helpbrowser-type-color4 { fill: #FF6573; }
+.helpbrowser-type-color5 { fill: #4CCAFF; }

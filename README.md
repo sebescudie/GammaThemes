@@ -15,6 +15,7 @@ Download the stylesheets from the release section and paste them in `Program Fil
 ### In progress
 - Solarized Light
 - Zenburn
+- Grey Highlight
 
 ### Planed
 - Solarized Dark
@@ -33,3 +34,6 @@ Download the stylesheets from the release section and paste them in `Program Fil
 
 ### Solarized Light
 ![Solarized Light](captures/solarized_light.png)
+
+### Grey Highlight
+![Grey Highlight](captures/grey_highlight.png)
