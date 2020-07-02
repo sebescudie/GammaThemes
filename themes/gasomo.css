@@ -11,19 +11,19 @@ Supported attributes:
 */
 
 /*elements*/ 
-.quad { fill: #505050 }
-.patch { fill: #252525; }
+.quad { fill: #414141 }
+.patch { fill: #12222c; }
 .patch-definition { fill: #2A2A2A; }
 .patch-paused { fill: #1b1b1b; }
 .selection { fill-opacity: 0.4; }
 
-.node { fill: #333333; }
-.node-selected { fill: #666666; }
+.node { fill: #3a3a3a; }
+.node-selected { fill: #5c4f3d; }
 .pinbar { fill: #4C4C4C; }
 
-.region { fill: #FFFFFF; fill-opacity: 0.04; }
-.region2 { fill: #FFFFFF; fill-opacity: 0.10; }
-.region-outline { fill-opacity: 0.10; fill: #000000; stroke: #333333; stroke-width: 5px; }
+.region { fill: #76f6ff; fill-opacity: 0.04; }
+.region2 { fill: #FFFFFF; fill-opacity: 0.12; }
+.region-outline { fill-opacity: 0.10; fill: #000000; stroke-opacity: 0.50; stroke: #816126; stroke-width: 3px; }
 
 .frame-icons { fill: #bebebe; }
 .frame-selected { fill: #c9c9c9; }
