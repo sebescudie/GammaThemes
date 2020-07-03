@@ -15,6 +15,8 @@ Download the stylesheets from the release section and paste them in `Program Fil
 ### In progress
 - Solarized Light
 - Zenburn
+- GaSoMo
+  - ( __Ga__ mmaTheme inspired by __So__ larized Dark and __Mo__ nokai )
 
 ### Planed
 - Solarized Dark
@@ -33,3 +35,6 @@ Download the stylesheets from the release section and paste them in `Program Fil
 
 ### Solarized Light
 ![Solarized Light](captures/solarized_light.png)
+
+### GaSoMo
+![Grey Highlight](captures/gasomo.png)
